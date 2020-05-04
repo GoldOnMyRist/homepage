@@ -1,11 +1,20 @@
 main {
-    background: url(./assets/images/background.png) no-repeat;
+    background: url(../images/background.png) no-repeat;
     background-size: 100%;
+  }
+
+  footer{
+      background-color: white;
   }
 
   .main-block {
     background-color: rgb(223, 240, 253);
     border-radius: 25px;
+  }
+
+  #clickonme {
+      background-color: rgb(183, 237, 255);
+    border-bottom: 2px dashed rgb(37, 0, 107); 
   }
 
   #meaningfull-words{
@@ -14,6 +23,21 @@ main {
     font-weight: bold;
     border-radius: 3px;
   }
+
+  #showmore:hover {
+      background-color: #001fd1;
+      color: whitesmoke;
+      border-radius: 2px;
+  }
+
+  #gifpresident {
+      margin-top: 3px;
+  }
+
+  /* #y2017 strong {
+      background-color: dodgerblue;
+      color: white;
+  } */
 
   .contacts li a.facebook:hover {
     color: #00109c;
