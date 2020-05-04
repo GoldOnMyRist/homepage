@@ -1,4 +1,7 @@
 .vscode/*
+sw.js.map
+workbox-*
+!workbox-config.js
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
