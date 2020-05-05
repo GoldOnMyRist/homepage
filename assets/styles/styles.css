@@ -1,47 +1,60 @@
 main {
     background: url(../images/background.png) no-repeat;
     background-size: 100%;
-  }
+}
 
-  footer{
-      background-color: white;
-  }
+footer {
+    background-color: white;
+}
 
-  .main-block {
+.main-block {
     background-color: rgb(223, 240, 253);
     border-radius: 25px;
-  }
+}
 
-  #clickonme {
-      background-color: rgb(183, 237, 255);
-    border-bottom: 2px dashed rgb(37, 0, 107); 
-  }
+.avatar {
+    cursor: pointer;
+}
 
-  #meaningfull-words{
+#hiddenblock>li:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+#hiddenblock p {
+    margin-bottom: 0;
+}
+
+#clickonme {
+    cursor: pointer;
+    background-color: rgb(183, 237, 255);
+    border-bottom: 2px dashed rgb(37, 0, 107);
+}
+
+#meaningfull-words {
     background-color: rgb(0, 24, 158);
     color: white;
     font-weight: bold;
     border-radius: 3px;
-  }
+}
 
-  #showmore:hover {
-      background-color: #001fd1;
-      color: whitesmoke;
-      border-radius: 2px;
-  }
+#showmore:hover {
+    cursor: pointer;
+    background-color: #001fd1;
+    color: whitesmoke;
+    border-radius: 2px;
+}
 
-  #gifpresident {
-      margin-top: 3px;
-      max-width: 100%;
-      max-height: 100%;
-  }
+#gifpresident {
+    margin-top: 3px;
+    max-width: 100%;
+    max-height: 100%;
+}
 
-
-  #upButton:hover {
+#upButton:hover {
     background-color: rgb(4, 0, 224);
-  }
+}
 
-  #upButton::after {
+#upButton::after {
     content: "\f077";
     font-family: FontAwesome;
     font-weight: normal;
@@ -49,10 +62,11 @@ main {
     font-size: 2em;
     line-height: 50px;
     color: #fff;
-  }
+}
 
-  #upButton {
+#upButton {
     display: inline-block;
+    cursor: pointer;
     background-color: rgba(255, 36, 36, .3);
     width: 50px;
     height: 50px;
@@ -64,16 +78,16 @@ main {
     right: 30px;
     transition: background-color .3s;
     z-index: 1000;
-   }
+}
 
-  .contacts li a.facebook:hover {
+.contacts li a.facebook:hover {
     color: #00109c;
-  }
+}
 
-  .contacts li a.twitter:hover {
+.contacts li a.twitter:hover {
     color: #32b4ff;
-  }
+}
 
-  .contacts li a.instagram:hover {
+.contacts li a.instagram:hover {
     color: #9c00aa;
-  }
+}
