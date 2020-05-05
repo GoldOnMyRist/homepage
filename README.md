@@ -7,5 +7,3 @@ This page is a resume for ***45th president of the United States Donald Trump***
 You will read a lot of interesting facts about Trump, his experience, personal life etc.
 ## Link
 [Go to Trump's resume](https://goldonmyrist.github.io/homepage/)
-
-🧙Hocus-pocus!
