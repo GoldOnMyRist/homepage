@@ -16,12 +16,6 @@ footer {
     cursor: pointer;
 }
 
-
-/* 
-#hiddenblock > li:not(:last-child) {
-    margin-bottom: 1em;
-} */
-
 .timeline li {
     margin-bottom: 14px;
 }
@@ -56,13 +50,9 @@ footer {
     max-height: 100%;
 }
 
-#upButton:hover {
-    background-color: rgb(4, 0, 224);
-}
-
 #upButton::after {
     content: "\f077";
-    font-family: FontAwesome;
+    font-family: FontAwesome, Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 2em;
@@ -73,7 +63,7 @@ footer {
 #upButton {
     display: inline-block;
     cursor: pointer;
-    background-color: rgba(255, 36, 36, .3);
+    background-color: rgba(255, 36, 36, 0.3);
     width: 50px;
     height: 50px;
     text-align: center;
@@ -82,8 +72,12 @@ footer {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s;
+    transition: background-color 0.3s;
     z-index: 1000;
+}
+
+#upButton:hover {
+    background-color: rgb(4, 0, 224);
 }
 
 .contacts li a.facebook:hover {
