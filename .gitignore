@@ -1,4 +1,5 @@
 .vscode/*
+sw.js
 sw.js.map
 workbox-*
 !workbox-config.js
