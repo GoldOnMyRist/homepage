@@ -16,8 +16,14 @@ footer {
     cursor: pointer;
 }
 
-#hiddenblock>li:not(:last-child) {
+
+/* 
+#hiddenblock > li:not(:last-child) {
     margin-bottom: 1em;
+} */
+
+.timeline li {
+    margin-bottom: 14px;
 }
 
 #hiddenblock p {
